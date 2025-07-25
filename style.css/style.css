@@ -90,7 +90,7 @@ main{
 .title-description p{
     color:rgba(0, 0, 0, 0.5);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top:20px;
 }
 .our-plants{
@@ -111,7 +111,7 @@ main{
  
  .our-plants p{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
  }
 
@@ -125,12 +125,12 @@ main{
 
 .card-container h3{
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 15px;
 }
 .card-container h4{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px;
 }
 
@@ -209,7 +209,7 @@ main{
 }
 
 .latest-container p{
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    font-weight: 400;
    color: rgba(0, 0, 0, 0.5);
 }
@@ -261,7 +261,7 @@ main{
     
 }
 .heading-offer{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 700;
     position:relative;
   z-index: 1;
@@ -339,7 +339,7 @@ footer{
 }
 
 .footer-section button{
-    width: 186px;
+    width: 184px;
     height: 40px;
     background-color: rgba(233, 90, 8, 1);
     color: rgba(255, 255, 255, 1);
@@ -411,4 +411,206 @@ footer{
 .twitter{
     width:19px;
     height:18px;
+}
+
+@media screen and (max-width:576px) {
+   .header-container{
+    max-width:100%;
+   }
+   .home{
+    display: none;
+   }
+   .same{
+    display: none;
+   }
+
+   .First-section-container{
+    flex-direction: column-reverse;
+   }
+ .First-section-container img{
+    justify-content: flex-end;
+    width: 390px;
+ }  
+ .title-description h1{
+   font-size: 1.5rem;
+ }
+
+ .title-description p{
+    font-size: 1rem;
+ }
+ 
+ .title-description{
+   width:100%;
+   padding-left: 18px;
+   margin-top: 28px;
+ }
+
+ .card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    margin-top: 28px;
+    
+    
+ }
+ .center img{
+   width:171px;
+ }
+ .center button{
+    width:170px;
+ }
+ .card-container h3{
+    font-size: 1rem;
+    font-weight: 600 ;
+ }
+ .card-container h4{
+    font-size: 1rem  ;
+    font-weight: 700;
+ }
+
+ .our-plants h1{
+    font-size: 1.5rem;
+    
+ }
+ .our-plants p{
+    font-size: 0.8rem;
+ }
+ .our-plants{
+    margin-top: 60px;
+ }
+ 
+ .third-section-container{
+    flex-direction: column;
+    margin-top:40px;
+ }
+ .new-img{
+    width:358px;
+    height:396px
+ }
+ .flower-related{
+    margin-left: 40px;
+   
+ }
+ 
+ .flower-related h2{
+      font-size: 1.5rem;
+      margin-top: -40px;
+ }
+ .flower-related li{
+    font-size: 0.8rem;
+ }
+.trusted{
+    display: none;
+}
+
+.latest-container {
+  margin-top: 143px;
+}
+.latest-container h3{
+    font-size: 1.5rem;
+}
+.latest-container p{
+    font-size: 0.9rem;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+    justify-items: center;
+    margin-top: 51.5px;
+    
+}
+.deal-boom,.deal-zabo,.deal-ana{
+    width:367px;
+    height:201px;
+}
+
+.deal-ana{
+  top:0px;
+}
+
+.deal-zabo{
+    border-radius: 0px;
+}
+
+.small-offer, .heading-offer{
+    font-size: 1.3rem;
+
+}
+
+.buy, .shopping{
+   font-size: 1rem;
+}
+
+.footer-section{
+   
+    background-size: cover;
+  
+   height: 276px;
+    margin-top: 40px; 
+    margin-bottom: 30px;
+}
+
+.footer-section h1{
+    
+    font-size: 1.4rem;
+}
+
+.footer-section input{
+  max-width:180px;
+  
+   
+}
+
+.footer-section button{
+    width: 100px;
+    
+}
+
+.last-section{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    
+    height: 800px; 
+    align-content:flex-start;
+    justify-items: start; 
+    margin-left:20px;
+    
+}
+
+
+.last-section h4{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.tag-container{
+    justify-items: flex-start;
+    margin-top: -94px;
+}
+
+ .unorder li {
+   
+   padding-bottom:37px;
+
+}
+
+.feature li {
+   
+    padding-bottom: 37px;
+} 
+
+.middle-container{
+    margin-top: -100px;
+}
+.icon-flex{
+    margin-top:-103px;
+    
+}
+
+
+
+
 }
