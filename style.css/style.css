@@ -158,3 +158,34 @@ main{
 .center img{
     width:270px;
 }
+.third-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 210px;
+    gap:90px;
+}
+.flower-store{
+    position: relative;
+}
+
+.trusted{
+    position:absolute;
+    top:-150px;
+    right:-120px;
+    width:300px;
+    height:300px;
+    animation: rotator 5s linear infinite;
+    
+}
+.flower-related h2{
+      font-size: 3.5rem;
+      font-weight: 700;
+      color:rgb(0, 0, 0);
+      padding-bottom: 25px;
+}
+.flower-related li{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
