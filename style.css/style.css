@@ -93,3 +93,68 @@ main{
     font-size: 1.5rem;
     padding-top:20px;
 }
+.our-plants{
+    margin-top: 120px;
+    text-align: center;
+}
+.our-plants h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color:rgb(233, 90, 8);
+    padding-bottom: 16px;
+    
+ }
+
+ .Plants{
+    color:rgb(0, 0, 0);
+ }
+ 
+ .our-plants p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+ }
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap:30px;
+   margin-top:49px;
+   
+}
+
+.card-container h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.card-container h4{
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.card-container button{
+    width:270px;
+    height: 50px;
+    background-color: rgb(233, 90, 8);
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    border:none;
+    font-size: 1rem;
+    cursor: pointer;
+
+    
+}
+
+
+.card-container button:hover{
+    background-color: burlywood;
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.center img{
+    width:270px;
+}
